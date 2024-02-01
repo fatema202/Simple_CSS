@@ -1,0 +1,96 @@
+.flex_con{
+    height: 200px;
+    width: 200px;
+    background: forestgreen ;
+    float: left;
+    font-size: 24px;
+    color: azure;
+    text-align: center;
+   line-height: 200px;
+
+
+}
+.flexbox{
+    display: flex; 
+    justify-content: center;
+    gap: 34px;
+     justify-content:space-between;
+   justify-content: space-around;
+justify-content: space-evenly;
+
+}
+.box3{
+    order: -1;   /* agerta pore anar jnn*/
+}
+.big_box{
+    height:560px;
+    width: 600px; 
+    background: tomato;
+   margin:40px auto;/* auto mani margin ta left r9 2 pashe theke sore ashbe*/
+   display: flex;
+   justify-content: center ;/* 2nd box ta maje thaka bujai*/
+   align-items: center ;/* nil box ta majer side borabor maje niche name*/
+   position: relative;
+}
+.sm_box{
+    height: 90px;
+    width: 90px; 
+    background: rgb(71, 203, 255);
+    position: absolute;
+    top: 100px;
+    left: 200;
+   
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background: #000;
+}
+/*
+.MainBox{
+    display: flex;
+     gap: 20px;
+}
+.Box{
+    height: 250px;
+    width: 25%;
+    background: firebrick;
+   
+}
+.Box2{
+
+}
+
+.Box3{
+   width: 50%;
+}
+*/
+.Main_Box{
+    display: flex;
+    column-gap: 30px;
+    }
+    .Box_1{
+        height: 400px;
+        width: 50%;
+        background: aqua ;
+    }
+    .Box_4{
+        height: 400px;
+        width: 50%;
+        background: rebeccapurple ; 
+    }
+    .Box2{
+        height: calc(200px - 12.5px);
+        width: 100%;
+        background: gold;
+        margin-bottom: 25px;
+    }
+    .Box3{
+        height:calc(200px - 12.5px);
+        width: 100%;
+        background:green;
+    }
+
+    
+
+    
